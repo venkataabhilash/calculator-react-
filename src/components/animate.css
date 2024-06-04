@@ -1,0 +1,16 @@
+button:hover {
+    animation-name : but;
+    animation-duration: 2s;
+}
+@keyframes but{
+    form{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(-360deg);
+    }
+}
+.animated{
+    background-color: black;
+    color: wheat;
+    border-radius: 5px;
+}
